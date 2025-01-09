@@ -1,0 +1,11 @@
+/* input.ng-pristine {
+    border-color: green;
+  } */
+  input.ng-dirty.ng-touched.ng-invalid{
+    background: #e9c9c9;
+    border-color: red;
+}
+
+.control:has(.ng-dirty.ng-touched.ng-invalid) label{
+    color: #f98b75;
+}
